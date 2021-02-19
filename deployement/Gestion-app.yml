@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: gestion
+  name: gestion
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gestion
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: gestion
+    spec:
+      containers:
+      - image: wissemlallahem/projet-test:development.10
+        name: projet-test
+        resources: {}
+status: {}
+
