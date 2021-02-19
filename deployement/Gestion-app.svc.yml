@@ -5,7 +5,7 @@ metadata:
   labels:
     app: web
   name: web
-  namespace: deploy
+  namespace: deploy-gestion
 spec:
   ports:
   - port: 8080
