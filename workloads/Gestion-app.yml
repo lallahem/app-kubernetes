@@ -18,7 +18,7 @@ spec:
         app: gestion
     spec:
       containers:
-      - image: wissemlallahem/projet-test:development.10
+      - image: wissemlallahem/projet-test:development.9
         name: projet-test
         resources: {}
 status: {}
